@@ -1,4 +1,4 @@
-macro in {
+macro in? {
   rule infix {
     $lhs:expr | $rhs:expr
   } => {
@@ -6,4 +6,4 @@ macro in {
   }
 }
 
-export in;
+export in?;

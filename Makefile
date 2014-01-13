@@ -5,6 +5,8 @@ TESTDIR = ./test
 MOCHA = $(BIN)/mocha
 SJS = $(BIN)/sjs
 
+all: test run-examples
+
 test: build-test
 	@$(MOCHA) --reporter spec --recursive --colors
 

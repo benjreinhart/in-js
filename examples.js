@@ -1,7 +1,7 @@
 (function(){
   var x = 1, y = [1, 2, 3];
 
-  if (x in y) {
+  if (x in? y) {
     console.log("1 is in the list [1, 2, 3]");
   }
 })();
@@ -15,7 +15,7 @@
   ];
 
   var filtered = frameworks.filter(function(framework){
-    return framework.language in ['ruby', 'javascript'];
+    return framework.language in? ['ruby', 'javascript'];
   });
 
   console.log(filtered);
