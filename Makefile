@@ -1,5 +1,5 @@
 BIN = node_modules/.bin
-SRCDIR = ./src
+SRCDIR = ./macro
 TESTDIR = ./test
 
 MOCHA = $(BIN)/mocha
