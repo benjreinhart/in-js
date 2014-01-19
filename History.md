@@ -1,3 +1,11 @@
+0.1.2 / 2014-01-19
+==================
+
+* Renamed src directory to macro
+* Renamed in.js to in.sjs
+* Moved sweet.js to dev dependencies
+
+
 0.1.1 / 2014-01-13
 ==================
 

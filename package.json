@@ -1,6 +1,6 @@
 {
     "name": "in-js"
-  , "version": "0.1.1"
+  , "version": "0.1.2"
   , "description": "Add a keyword, in?, to JavaScript"
   , "author": "benjreinhart"
   , "engines":
