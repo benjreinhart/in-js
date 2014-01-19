@@ -11,8 +11,8 @@ test: build-test
 	@$(MOCHA) --reporter spec --recursive --colors
 
 build-test:
-	@$(SJS) --module $(SRCDIR)/in.js $(TESTDIR)/in_test.sjs -o $(TESTDIR)/in_test.js
+	@$(SJS) --module $(SRCDIR)/in.sjs $(TESTDIR)/in_test.sjs -o $(TESTDIR)/in_test.js
 
 run-examples:
-	@$(SJS) --module $(SRCDIR)/in.js ./examples.js | node --harmony --use-strict
+	@$(SJS) --module $(SRCDIR)/in.sjs ./examples.js | node --harmony --use-strict
 
